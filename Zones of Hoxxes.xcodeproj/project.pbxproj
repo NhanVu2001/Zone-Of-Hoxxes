@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		810769EF289BEC1B009A8AB9 /* Zones_of_HoxxesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810769EE289BEC1B009A8AB9 /* Zones_of_HoxxesApp.swift */; };
+		810769F1289BEC1B009A8AB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810769F0289BEC1B009A8AB9 /* ContentView.swift */; };
+		810769F3289BEC1C009A8AB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 810769F2289BEC1C009A8AB9 /* Assets.xcassets */; };
+		810769F6289BEC1C009A8AB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 810769F5289BEC1C009A8AB9 /* Preview Assets.xcassets */; };
+		81076A00289BEC1D009A8AB9 /* Zones_of_HoxxesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810769FF289BEC1D009A8AB9 /* Zones_of_HoxxesTests.swift */; };
+		81076A0A289BEC1D009A8AB9 /* Zones_of_HoxxesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81076A09289BEC1D009A8AB9 /* Zones_of_HoxxesUITests.swift */; };
+		81076A0C289BEC1D009A8AB9 /* Zones_of_HoxxesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81076A0B289BEC1D009A8AB9 /* Zones_of_HoxxesUITestsLaunchTests.swift */; };
+		81076A19289BEC52009A8AB9 /* mapImgClip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81076A18289BEC52009A8AB9 /* mapImgClip.swift */; };
+		81076A1B289BEC6E009A8AB9 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81076A1A289BEC6E009A8AB9 /* ModelData.swift */; };
+		81076A1D289BEC81009A8AB9 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81076A1C289BEC81009A8AB9 /* ListRowView.swift */; };
+		81076A1F289BEC95009A8AB9 /* ZoneList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81076A1E289BEC95009A8AB9 /* ZoneList.swift */; };
+		81076A21289BECAA009A8AB9 /* ResIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81076A20289BECAA009A8AB9 /* ResIcon.swift */; };
+		81076A23289BECCF009A8AB9 /* Zone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81076A22289BECCF009A8AB9 /* Zone.swift */; };
+		81076A25289BECE8009A8AB9 /* ZoneDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81076A24289BECE8009A8AB9 /* ZoneDetail.swift */; };
+		81076A27289BED0F009A8AB9 /* zData.json in Resources */ = {isa = PBXBuildFile; fileRef = 81076A26289BED0F009A8AB9 /* zData.json */; };
+		81FD5C14289CFA2300C3D2CD /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FD5C13289CFA2300C3D2CD /* LandingPage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		810769FC289BEC1D009A8AB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 810769E3289BEC1B009A8AB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 810769EA289BEC1B009A8AB9;
+			remoteInfo = "Zones of Hoxxes";
+		};
+		81076A06289BEC1D009A8AB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 810769E3289BEC1B009A8AB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 810769EA289BEC1B009A8AB9;
+			remoteInfo = "Zones of Hoxxes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		810769EB289BEC1B009A8AB9 /* Zones of Hoxxes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zones of Hoxxes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		810769EE289BEC1B009A8AB9 /* Zones_of_HoxxesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zones_of_HoxxesApp.swift; sourceTree = "<group>"; };
+		810769F0289BEC1B009A8AB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		810769F2289BEC1C009A8AB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		810769F5289BEC1C009A8AB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		810769FB289BEC1D009A8AB9 /* Zones of HoxxesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zones of HoxxesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		810769FF289BEC1D009A8AB9 /* Zones_of_HoxxesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zones_of_HoxxesTests.swift; sourceTree = "<group>"; };
+		81076A05289BEC1D009A8AB9 /* Zones of HoxxesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zones of HoxxesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81076A09289BEC1D009A8AB9 /* Zones_of_HoxxesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zones_of_HoxxesUITests.swift; sourceTree = "<group>"; };
+		81076A0B289BEC1D009A8AB9 /* Zones_of_HoxxesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zones_of_HoxxesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		81076A18289BEC52009A8AB9 /* mapImgClip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapImgClip.swift; sourceTree = "<group>"; };
+		81076A1A289BEC6E009A8AB9 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		81076A1C289BEC81009A8AB9 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		81076A1E289BEC95009A8AB9 /* ZoneList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneList.swift; sourceTree = "<group>"; };
+		81076A20289BECAA009A8AB9 /* ResIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResIcon.swift; sourceTree = "<group>"; };
+		81076A22289BECCF009A8AB9 /* Zone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zone.swift; sourceTree = "<group>"; };
+		81076A24289BECE8009A8AB9 /* ZoneDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneDetail.swift; sourceTree = "<group>"; };
+		81076A26289BED0F009A8AB9 /* zData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zData.json; sourceTree = "<group>"; };
+		81FD5C13289CFA2300C3D2CD /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		810769E8289BEC1B009A8AB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810769F8289BEC1D009A8AB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81076A02289BEC1D009A8AB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		810769E2289BEC1B009A8AB9 = {
+			isa = PBXGroup;
+			children = (
+				810769EE289BEC1B009A8AB9 /* Zones_of_HoxxesApp.swift */,
+				810769ED289BEC1B009A8AB9 /* Zones of Hoxxes */,
+				810769FE289BEC1D009A8AB9 /* Zones of HoxxesTests */,
+				81076A08289BEC1D009A8AB9 /* Zones of HoxxesUITests */,
+				810769EC289BEC1B009A8AB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		810769EC289BEC1B009A8AB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				810769EB289BEC1B009A8AB9 /* Zones of Hoxxes.app */,
+				810769FB289BEC1D009A8AB9 /* Zones of HoxxesTests.xctest */,
+				81076A05289BEC1D009A8AB9 /* Zones of HoxxesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		810769ED289BEC1B009A8AB9 /* Zones of Hoxxes */ = {
+			isa = PBXGroup;
+			children = (
+				81AB8F93289F7C2700FDB274 /* App Views */,
+				81AB8F95289F7F0C00FDB274 /* Page Content */,
+				81AB8F94289F7C6300FDB274 /* Resource */,
+				810769F2289BEC1C009A8AB9 /* Assets.xcassets */,
+				810769F4289BEC1C009A8AB9 /* Preview Content */,
+			);
+			path = "Zones of Hoxxes";
+			sourceTree = "<group>";
+		};
+		810769F4289BEC1C009A8AB9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				810769F5289BEC1C009A8AB9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		810769FE289BEC1D009A8AB9 /* Zones of HoxxesTests */ = {
+			isa = PBXGroup;
+			children = (
+				810769FF289BEC1D009A8AB9 /* Zones_of_HoxxesTests.swift */,
+			);
+			path = "Zones of HoxxesTests";
+			sourceTree = "<group>";
+		};
+		81076A08289BEC1D009A8AB9 /* Zones of HoxxesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81076A09289BEC1D009A8AB9 /* Zones_of_HoxxesUITests.swift */,
+				81076A0B289BEC1D009A8AB9 /* Zones_of_HoxxesUITestsLaunchTests.swift */,
+			);
+			path = "Zones of HoxxesUITests";
+			sourceTree = "<group>";
+		};
+		81AB8F93289F7C2700FDB274 /* App Views */ = {
+			isa = PBXGroup;
+			children = (
+				81FD5C13289CFA2300C3D2CD /* LandingPage.swift */,
+				81076A1E289BEC95009A8AB9 /* ZoneList.swift */,
+				81076A24289BECE8009A8AB9 /* ZoneDetail.swift */,
+				810769F0289BEC1B009A8AB9 /* ContentView.swift */,
+			);
+			path = "App Views";
+			sourceTree = "<group>";
+		};
+		81AB8F94289F7C6300FDB274 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				81076A22289BECCF009A8AB9 /* Zone.swift */,
+				81076A1A289BEC6E009A8AB9 /* ModelData.swift */,
+				81076A26289BED0F009A8AB9 /* zData.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		81AB8F95289F7F0C00FDB274 /* Page Content */ = {
+			isa = PBXGroup;
+			children = (
+				81076A20289BECAA009A8AB9 /* ResIcon.swift */,
+				81076A18289BEC52009A8AB9 /* mapImgClip.swift */,
+				81076A1C289BEC81009A8AB9 /* ListRowView.swift */,
+			);
+			path = "Page Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		810769EA289BEC1B009A8AB9 /* Zones of Hoxxes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81076A0F289BEC1D009A8AB9 /* Build configuration list for PBXNativeTarget "Zones of Hoxxes" */;
+			buildPhases = (
+				810769E7289BEC1B009A8AB9 /* Sources */,
+				810769E8289BEC1B009A8AB9 /* Frameworks */,
+				810769E9289BEC1B009A8AB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zones of Hoxxes";
+			productName = "Zones of Hoxxes";
+			productReference = 810769EB289BEC1B009A8AB9 /* Zones of Hoxxes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		810769FA289BEC1D009A8AB9 /* Zones of HoxxesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81076A12289BEC1D009A8AB9 /* Build configuration list for PBXNativeTarget "Zones of HoxxesTests" */;
+			buildPhases = (
+				810769F7289BEC1D009A8AB9 /* Sources */,
+				810769F8289BEC1D009A8AB9 /* Frameworks */,
+				810769F9289BEC1D009A8AB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				810769FD289BEC1D009A8AB9 /* PBXTargetDependency */,
+			);
+			name = "Zones of HoxxesTests";
+			productName = "Zones of HoxxesTests";
+			productReference = 810769FB289BEC1D009A8AB9 /* Zones of HoxxesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81076A04289BEC1D009A8AB9 /* Zones of HoxxesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81076A15289BEC1D009A8AB9 /* Build configuration list for PBXNativeTarget "Zones of HoxxesUITests" */;
+			buildPhases = (
+				81076A01289BEC1D009A8AB9 /* Sources */,
+				81076A02289BEC1D009A8AB9 /* Frameworks */,
+				81076A03289BEC1D009A8AB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81076A07289BEC1D009A8AB9 /* PBXTargetDependency */,
+			);
+			name = "Zones of HoxxesUITests";
+			productName = "Zones of HoxxesUITests";
+			productReference = 81076A05289BEC1D009A8AB9 /* Zones of HoxxesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		810769E3289BEC1B009A8AB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					810769EA289BEC1B009A8AB9 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					810769FA289BEC1D009A8AB9 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 810769EA289BEC1B009A8AB9;
+					};
+					81076A04289BEC1D009A8AB9 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 810769EA289BEC1B009A8AB9;
+					};
+				};
+			};
+			buildConfigurationList = 810769E6289BEC1B009A8AB9 /* Build configuration list for PBXProject "Zones of Hoxxes" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 810769E2289BEC1B009A8AB9;
+			productRefGroup = 810769EC289BEC1B009A8AB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				810769EA289BEC1B009A8AB9 /* Zones of Hoxxes */,
+				810769FA289BEC1D009A8AB9 /* Zones of HoxxesTests */,
+				81076A04289BEC1D009A8AB9 /* Zones of HoxxesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		810769E9289BEC1B009A8AB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810769F6289BEC1C009A8AB9 /* Preview Assets.xcassets in Resources */,
+				810769F3289BEC1C009A8AB9 /* Assets.xcassets in Resources */,
+				81076A27289BED0F009A8AB9 /* zData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810769F9289BEC1D009A8AB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81076A03289BEC1D009A8AB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		810769E7289BEC1B009A8AB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810769F1289BEC1B009A8AB9 /* ContentView.swift in Sources */,
+				81076A23289BECCF009A8AB9 /* Zone.swift in Sources */,
+				81076A1F289BEC95009A8AB9 /* ZoneList.swift in Sources */,
+				81076A21289BECAA009A8AB9 /* ResIcon.swift in Sources */,
+				81076A25289BECE8009A8AB9 /* ZoneDetail.swift in Sources */,
+				81076A1B289BEC6E009A8AB9 /* ModelData.swift in Sources */,
+				81FD5C14289CFA2300C3D2CD /* LandingPage.swift in Sources */,
+				81076A1D289BEC81009A8AB9 /* ListRowView.swift in Sources */,
+				810769EF289BEC1B009A8AB9 /* Zones_of_HoxxesApp.swift in Sources */,
+				81076A19289BEC52009A8AB9 /* mapImgClip.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810769F7289BEC1D009A8AB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81076A00289BEC1D009A8AB9 /* Zones_of_HoxxesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81076A01289BEC1D009A8AB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81076A0C289BEC1D009A8AB9 /* Zones_of_HoxxesUITestsLaunchTests.swift in Sources */,
+				81076A0A289BEC1D009A8AB9 /* Zones_of_HoxxesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		810769FD289BEC1D009A8AB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 810769EA289BEC1B009A8AB9 /* Zones of Hoxxes */;
+			targetProxy = 810769FC289BEC1D009A8AB9 /* PBXContainerItemProxy */;
+		};
+		81076A07289BEC1D009A8AB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 810769EA289BEC1B009A8AB9 /* Zones of Hoxxes */;
+			targetProxy = 81076A06289BEC1D009A8AB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		81076A0D289BEC1D009A8AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81076A0E289BEC1D009A8AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81076A10289BEC1D009A8AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Zones of Hoxxes/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rmit.nhanvu.Zones-of-Hoxxes";
+				PRODUCT_NAME = "Zones of Hoxxes";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81076A11289BEC1D009A8AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Zones of Hoxxes/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rmit.nhanvu.Zones-of-Hoxxes";
+				PRODUCT_NAME = "Zones of Hoxxes";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81076A13289BEC1D009A8AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rmit.nhanvu.Zones-of-HoxxesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zones of Hoxxes.app/Zones of Hoxxes";
+			};
+			name = Debug;
+		};
+		81076A14289BEC1D009A8AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rmit.nhanvu.Zones-of-HoxxesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zones of Hoxxes.app/Zones of Hoxxes";
+			};
+			name = Release;
+		};
+		81076A16289BEC1D009A8AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rmit.nhanvu.Zones-of-HoxxesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Zones of Hoxxes";
+			};
+			name = Debug;
+		};
+		81076A17289BEC1D009A8AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rmit.nhanvu.Zones-of-HoxxesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Zones of Hoxxes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		810769E6289BEC1B009A8AB9 /* Build configuration list for PBXProject "Zones of Hoxxes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81076A0D289BEC1D009A8AB9 /* Debug */,
+				81076A0E289BEC1D009A8AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81076A0F289BEC1D009A8AB9 /* Build configuration list for PBXNativeTarget "Zones of Hoxxes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81076A10289BEC1D009A8AB9 /* Debug */,
+				81076A11289BEC1D009A8AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81076A12289BEC1D009A8AB9 /* Build configuration list for PBXNativeTarget "Zones of HoxxesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81076A13289BEC1D009A8AB9 /* Debug */,
+				81076A14289BEC1D009A8AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81076A15289BEC1D009A8AB9 /* Build configuration list for PBXNativeTarget "Zones of HoxxesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81076A16289BEC1D009A8AB9 /* Debug */,
+				81076A17289BEC1D009A8AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 810769E3289BEC1B009A8AB9 /* Project object */;
+}
